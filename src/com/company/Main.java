@@ -14,8 +14,8 @@ public class Main {
         Scanner scan= new Scanner (System.in);
         //The below code creates a random object
         Random random= new Random ();
-        long from=1;
-        long to =100;
+        int from=1;
+        int to =100;
         int randomNumber= random.nextInt (to- from+1)+from;
         //The below code initializes the guessedNumber
         int guessedNumber=0;
